@@ -1,0 +1,14 @@
+.main-sidebar{
+  width: 100%;
+  max-width: 250px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  border-left: 1px solid #000;
+  padding: 25PX 10PX;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+}

@@ -1,0 +1,26 @@
+.app-header{
+  padding: 15px 0;
+  border-bottom: 1px solid #000;
+  .user-actions{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    button{
+      border: 1px solid #A020F0;
+      outline: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      background-color: transparent;
+
+      &:disabled{
+        border-color: #999999;
+        cursor: not-allowed;
+      }
+      &:hover:not([disabled]){
+        color: #FFFFFF;
+        background-color: #00008B;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.hero-card-container{
+  flex: 1 1 auto;
+  padding-top: 50px;
+  overflow: auto;
+  .hero-card-container-main-panel{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    .card-overlay{
+      padding: 15px;
+      max-width: 50%;
+      width: 100%;
+      min-height: 250px;
+
+      .card{
+        padding: 25px 15px;
+        border:  1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+        height: 100%;
+        p{
+          font-size: 50px;
+        }
+        .delete-card{
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          cursor: pointer;
+          color: #000;
+          background-color: transparent;
+          border: none;
+          outline: none;
+          &:hover{
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}
